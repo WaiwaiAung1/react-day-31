@@ -1,6 +1,6 @@
 import React from "react";
 import CounterBox from "./components/CounterBox";
-
+import useCounter from "./Hooks/useCounter";
 export default function App() {
   const [a, setA] = React.useState(10);
   const [b, setB] = React.useState(100);
